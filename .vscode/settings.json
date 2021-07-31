@@ -1,0 +1,5 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-16.0.1.9-hotspot"
+}

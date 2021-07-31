@@ -22,5 +22,7 @@ public class product {
         answer = number1 * number2 * number3;
 
         System.out.printf("The product of %d, %d and %d is %d%n.", number1, number2, number3, answer);
+        
+        input.close();
     }
 }

@@ -28,7 +28,36 @@ public class exo224 {
         System.out.print("Enter another: ");
         e = input.nextInt();
 
-        if ()
         
+        smallest = a;
+        
+        if (b < smallest){
+            smallest = b;
+        }
+        if (c < smallest){
+            smallest = c;
+        }
+        if (d < smallest){
+            smallest = d;
+        }
+        if (e < smallest){
+            smallest = e;
+        }
+        largest = a;
+
+        if (b > largest){
+            largest = b;
+        }
+        if (c > largest)
+            largest = c;
+        if (d > largest)
+            largest = d;
+        if(e > largest)
+            largest = e;
+
+        System.out.printf("%d is smallest.%n", smallest);
+        System.out.printf("%d is the largest.%n", largest);
+        
+        input.close();
     }
 }
